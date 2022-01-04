@@ -1,0 +1,110 @@
+.child{
+    font-size: 30px;
+    color: aqua;
+}
+
+.child:first-child{
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.child:last-child{
+    color: green;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+
+
+
+
+.link{
+    font-size: 25px;
+}
+
+.link:hover{
+    text-decoration-color: red;
+    font-size: 22px;
+}
+
+.link:focus{
+    color: hotpink;
+}
+
+
+
+
+
+
+.tar{
+    font-size: 35px;
+    color: royalblue;
+}
+
+.tar:first-letter{
+    font-size: 45px;
+    color: brown;
+    font-family: fantasy;
+
+}
+
+
+
+
+
+.tox{
+    font-size: 23px;
+}
+
+.tox::first-line{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+.avelacnel{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+ 
+}
+
+.avelacnel:before{
+    content: 'skizb:    ';
+    font-family: fantasy;
+    color: red;
+    font-style: italic;
+}
+
+.avelacnel:after{
+    content: ' verj' ;
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+
+
+
+.gic{
+    font-size: 30px;
+    font-family: arial;
+}
+
+
+
+
+
+
+
+form input[type="text"]{
+    background: orchid;
+}
+
+form input[type="email"]{
+    background: green;
+}
